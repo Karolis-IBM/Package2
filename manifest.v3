@@ -10,7 +10,7 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="Package3">1.0</value>
+    <value name="Package3">10.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
