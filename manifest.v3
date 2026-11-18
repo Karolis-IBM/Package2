@@ -2,34 +2,22 @@
 
 <Values version="2.0">
   <value name="enabled">yes</value>
-  <value name="target_server_version">12.0.0</value>
+  <value name="lazy_load">yes</value>
   <value name="system_package">no</value>
-  <value name="version">9.6.0.0.26</value>
+  <value name="version">1.0</value>
   <value name="name">Package2</value>
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <record name="requires" javaclass="com.wm.util.Values">
-    <value name="Package3">10.0</value>
-  </record>
+  <null name="requires"/>
+  <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
   <null name="build"/>
   <null name="description"/>
-  <value name="created_date">12-09-2025 12:18:30 EDT</value>
+  <value name="created_date">18-11-2026 15:55:27 GMT</value>
   <null name="extendedProperties"/>
-  <value name="target_server_version">11.1.0.0000-2091</value>
-  <array name="patch_history" type="record" depth="1">
-    <record javaclass="com.wm.util.Values">
-      <value name="name">WAK_9.6_Hotfix_WAK-541</value>
-      <value name="version">9.6</value>
-      <value name="build">26</value>
-      <value name="description">IBM webMethods Adapter 9.6 for Apache Kafka Hotfix WAK-541</value>
-      <value name="time">24-06-2025</value>
-      <value name="jvm_version">1.8</value>
-      <value name="publisher">IBM</value>
-      <value name="patch_nums"></value>
-    </record>
-  </array>
+  <value name="target_server_version">12.0.0.0</value>
+  <value name="isProjectPackage">false</value>
 </Values>

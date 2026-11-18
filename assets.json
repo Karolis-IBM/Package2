@@ -1,0 +1,1 @@
+{"docs:doc1":{"subType":"unknown","type":"record"},"test:flow":{"references":"[ref=docs:doc1,path=/Service Path;1.0/signature;1;subPath;\"/input1;4;0;docs:doc1\", ref=docs:doc1,path=/Service Path;1.0/signature;2;subPath;\"/output1;4;0;docs:doc1\"]","subType":"flow/default","type":"service"}}
